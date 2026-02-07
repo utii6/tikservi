@@ -55,9 +55,9 @@ def is_subscribed(user_id):
 def main_inline_menu():
     markup = types.InlineKeyboardMarkup(row_width=2)
     markup.add(
-        types.InlineKeyboardButton("👥 زيادة مشتركين", callback_data="ser_sub_14681"),
-        types.InlineKeyboardButton("👀 زيادة مشاهدات", callback_data="ser_view_14527"),
-        types.InlineKeyboardButton("❤️ تفاعلات", callback_data="ser_react_13925"),
+        types.InlineKeyboardButton("👥 اكسبلور الفيديو", callback_data="ser_sub_16021"),
+        types.InlineKeyboardButton("👀 زيادة مشاهدات", callback_data="ser_view_13372"),
+        types.InlineKeyboardButton("❤️ لايكات", callback_data="ser_react_16805"),
         types.InlineKeyboardButton("👤 حسابي", callback_data="my_account")
     )
     return markup
